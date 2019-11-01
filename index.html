@@ -11,31 +11,34 @@
 </head>
 <body>
     <header>
-
+        <h1>Train Schedule(s)</h1>
+        <h2>Initializer & Calculator</h2>
     </header>
-    <table class="container current-schedule">
-        <thead>
-            <th>Current Employee</th>
-        </thead>
-        <tbody id="schedule-list-rows">
-            <tr>
+
+    <div class="container current-schedule"> 
+        <h6 id="head">Current Trains</h6>
+        <table>
+            <thead> 
                 <th>Train Name</th>
                 <th>Destination</th>
                 <th>Frequency</th>
                 <th>Next Train</th>
                 <th>Minutes Away</th>
-            </tr>
-            <tr>
-                <td id="d-name"></td>
-                <td id="d-destination"></td>
-                <td id="d-frequency"></td>
-                <td id="d-next"></td>
-                <td id="d-m-away"></td>
-            </tr>
-        </tbody>
-    </table>
+            </thead>
+            <tbody id="schedule-list-rows">
+                <tr>
+                    <td id="d-name"></td>
+                    <td id="d-destination"></td>
+                    <td id="d-frequency"></td>
+                    <td id="d-next"></td>
+                    <td id="d-m-away"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <div class="container add-train">
+        <h6 id="head">Add Train</h6>
         <p>Train Name:</p>
         <input type="text" id="name">
         <p>Destination:</p>
