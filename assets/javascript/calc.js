@@ -71,10 +71,10 @@ $("#submit").on("click", function (event) {
       first: first,
       dateAdded: firebase.database.ServerValue.TIMESTAMP
   })
-  $("#name").text('');
-  $("#destinatin").text('');
-  $("#frequency").text('');
-  $("#first").text('');
+  $("#name").val('');
+  $("#destination").val('');
+  $("#frequency").val('');
+  $("#first").val('');
 });
 
 //style
