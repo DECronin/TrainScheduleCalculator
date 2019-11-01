@@ -27,3 +27,8 @@ th {
 table{
     text-align: center;
 }
+tr:hover{
+    background-color: rgb(212, 184, 184, 0.7);
+    color: seagreen;
+    font-weight: bold;
+}
