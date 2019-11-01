@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Choo Choo</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <table class="container current-schedule">
+        <thead>
+            <th>Current Employee</th>
+        </thead>
+        <tbody id="schedule-list-rows">
+            <tr>
+                <th>Train Name</th>
+                <th>Destination</th>
+                <th>Frequency</th>
+                <th>Next Train</th>
+                <th>Minutes Away</th>
+            </tr>
+            <tr>
+                <td id="d-name"></td>
+                <td id="d-destination"></td>
+                <td id="d-frequency"></td>
+                <td id="d-next"></td>
+                <td id="d-m-away"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="container add-train">
+        <p>Train Name:</p>
+        <input type="text" id="name">
+        <p>Destination:</p>
+        <input type="text" id="destination">
+        <p>First Train Time:</p>
+        <input type="time" id="first" class="timepicker">
+        <p>Frequency (min):</p>
+        <input type="text" id="frequency">
+        <button id="submit">Submit</button>
+    </div>
+
+    <!--Script links / keep to bottom of body-->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-database.js"></script>
+    <script src="./assets/javascript/calc.js"></script>
+</body>
+</html>
