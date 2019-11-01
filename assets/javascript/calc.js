@@ -76,8 +76,3 @@ $("#submit").on("click", function (event) {
   $("#frequency").val('');
   $("#first").val('');
 });
-
-//style
-//readme
-
-//bootcamp/portfolio links
