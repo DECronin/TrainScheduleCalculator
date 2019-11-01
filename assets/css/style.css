@@ -1,4 +1,29 @@
+body{
+    background-image: url(../images/funny-kids-seamless-pattern-railway-260nw-294641489.jpg);
+    background-size: 45%;
+    background-repeat: repeat;
+}
+header{
+    background-color: hsla(219, 87%, 77%, 0.85);
+    color: rgb(189, 77, 13);
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+}
 .container {
     width: 90%;
-    margin: 0 auto;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(216, 216, 216, 0.85);
+}
+#head{
+    padding: 5px;
+    border-bottom: rgb(189, 77, 13) 2px solid;
+    text-align: center;
+}
+th {
+  padding: 0 60px;
+}
+table{
+    text-align: center;
 }
