@@ -1,7 +1,7 @@
 # TrainScheduleCalculator
 #### Links:
-- [Homework Assignment Repository](https://github.com/UCF-Coding-Boot-Camp/UCF-LKM-FSF-PT-08-2019-U-C/blob/master/06-ajax/02-Homework/Instructions/homework.md)
-- [Live Page](https://decronin.github.io/Gif-Searcher/)
+- [Homework Assignment Repository](https://github.com/UCF-Coding-Boot-Camp/UCF-LKM-FSF-PT-08-2019-U-C/blob/master/07-firebase/02-Homework/Instructions/Homework_Train_Activity_Basic.md)
+- [Live Page](https://decronin.github.io/TrainScheduleCalculator/)
 
 #### Requirements:
 * FireBase Connection
@@ -23,3 +23,6 @@
 
 ### Bonus:
 * Mobile Responsive
+* Updating arival times each minute
+* Update/Romove Buttons
+* Only GitHub or Google account Users can use
